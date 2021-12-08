@@ -9,17 +9,17 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </head>
-<body>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
         <div class="container-fluid mx-5">
-            <a class="navbar-brand" href="#">Pedro Tarik</a>
+            <a class="navbar-brand" href="#home">Pedro Tarik</a>
             <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
                 aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button> -->
           <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link text-white" href="#">Portfolio</a>
+                <a class="nav-link text-white" href="#portfolio">Portfolio</a>
               </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="#">About</a>
@@ -34,5 +34,35 @@
             </div>
         </div>
     </nav>
+<div class="container-fluid bg-dark" id="home">
+<div class="row">
+  <div class="col">
+      <ul class="list-unstyled">
+        <li>
+          <a href="#"><i class="fa fa-github text-white" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-linkedin text-white" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-angellist text-white" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-twitter text-white" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-medium text-white" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-11 text-white">
+    <h1>Hey There. <span>We are Pedro and Tarik</span></h1>
+    <h3>I am a Software Developer</h3>
+    <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+      don’t hestiate to contact me.</p>
+    </div>
+  </div>
+</div>
+</div>
 </body>
 </html>
