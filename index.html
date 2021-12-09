@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target="navbar-scroll" data-bs-offset="0" tabindex="0">
+  <header>
+    <nav id="navbar-scroll" class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
+      <div class="container-fluid w-100 d-flex justify-content-between">
+        <a class="navbar-brand" href="#">Tarik & Pedro</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav w-100 d-flex justify-content-end me-5">
+              <a class="nav-link me-3 align-self-center" aria-current="page" href="#portfolio">Portfolio</a>
+              <a class="nav-link me-3 align-self-center" href="#about">About</a>
+              <a class="nav-link me-3 align-self-center" href="#contact">Contact</a>
+              <a class="nav-link me-3 align-self-center" href="#">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <section id="portfolio" class="container-fluid bg-dark py-5">
+      <div class="row py-5">
+        <div class="col-lg-1 d-flex flex-column">
+          <ul class="list-unstyled d-flex flex-column">
+            <li class="mb-2 mt-4">
+              <a href="#">
+                <i class="fa fa-github text-white" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#">
+                <i class="fa fa-linkedin text-white" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#">
+                <i class="fa fa-angellist text-white" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#">
+                <i class="fa fa-twitter text-white" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="mb-2">
+              <a href="#">
+                <i class="fa fa-medium text-white" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-5">
+          <h1 class="text-warning">Hey There.
+          <br>
+            <span>We're Tarik & Pedro</span></h1>
+          <h4 class="text-white">We're Software Developers</h4>
+          <p class="text-white mb-5">We can help you build a product, feature or website. Look through some of our work and experience! If you like what you see and have a project you need coded, 
+            don’t hesitate to contact us.</p>
+        </div>
+      </div>
+    </section>
+    <section class="container my-5">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-3">
+          <h2>My Recent Works</h2>
+        </div>
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="./images/Img Placeholder.png" alt="Placeholder for project"> 
+        </div>
+        <div class="col-lg-5">
+          <h3>Multi-Post Stories</h3>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+          <div>
+            <span class="badge bg-dark p-2 m-1">CSS</span>
+            <span class="badge bg-dark p-2 m-1">HTML</span>
+            <span class="badge bg-dark p-2 m-1">Bootstrap</span>
+            <span class="badge bg-dark p-2 m-1">Ruby</span>
+          </div>
+          <button type="button" class="btn btn-warning mt-3 text-white">See Project</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card mb-4">
+            <img class="card-img-top" src="./images/placeholder1.png" alt="Placeholder for project">
+            <div class="card-img-overlay d-flex flex-column justify-content-end p-0">
+              <button type="button" class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#project1">See Project</button>
+            </div>
+            <div class="modal fade" id="project1" tabindex="-1" aria-labelledby="project1" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Project template title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex flex-column align-items-center">
+                    <h2>Project subtitle</h2>
+                    <img src="./images/placeholder1.png" alt="Placeholder for project">
+                    <p>Project description</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card mb-4">
+            <img class="card-img-top" src="./images/placeholder2.png" alt="Placeholder for project">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+              <h4 class="card-title text-white my-4 mx-2">Data Dashboard Healthcare</h4>
+              <p class="card-text text-white mb-5 mx-2">A daily selection of privately personalized reads, no accounts or sign-ups required. It has been the industry's standard.</p>
+              <div class="mx-2">
+                <span class="badge bg-secondary p-2 mr-1">HTML</span>
+                <span class="badge bg-secondary p-2 mr-1">Bootstrap</span>
+                <span class="badge bg-secondary p-2 mr-1">Ruby</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card mb-4">
+            <img class="card-img-top" src="./images/placeholder3.png" alt="Placeholder for project">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+              <h4 class="card-title text-white my-4 mx-2">Data Dashboard Healthcare</h4>
+              <p class="card-text text-white mb-5 mx-2">A daily selection of privately personalized reads, no accounts or sign-ups required. It has been the industry's standard.</p>
+              <div class="mx-2">
+                <span class="badge bg-secondary p-2 mr-1">HTML</span>
+                <span class="badge bg-secondary p-2 mr-1">Bootstrap</span>
+                <span class="badge bg-secondary p-2 mr-1">Ruby</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg">
+          <div class="card">
+            <img class="card-img-top" src="./images/placeholder4.png" alt="Placeholder for project">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+              <h4 class="card-title text-white my-4 mx-2">Data Dashboard Healthcare</h4>
+              <p class="card-text text-white mb-5 mx-2">A daily selection of privately personalized reads, no accounts or sign-ups required. It has been the industry's standard.</p>
+              <div class="mx-2">
+                <span class="badge bg-secondary p-2 mr-1">HTML</span>
+                <span class="badge bg-secondary p-2 mr-1">Bootstrap</span>
+                <span class="badge bg-secondary p-2 mr-1">Ruby</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card">
+            <img class="card-img-top" src="./images/placeholder2.png" alt="Placeholder for project">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+              <h4 class="card-title text-white my-4 mx-2">Data Dashboard Healthcare</h4>
+              <p class="card-text text-white mb-5 mx-2">A daily selection of privately personalized reads, no accounts or sign-ups required. It has been the industry's standard.</p>
+              <div class="mx-2">
+                <span class="badge bg-secondary p-2 mr-1">HTML</span>
+                <span class="badge bg-secondary p-2 mr-1">Bootstrap</span>
+                <span class="badge bg-secondary p-2 mr-1">Ruby</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card">
+            <img class="card-img-top" src="./images/placeholder3.png" alt="Placeholder for project">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+              <h4 class="card-title text-white my-4 mx-2">Data Dashboard Healthcare</h4>
+              <p class="card-text text-white mb-5 mx-2">A daily selection of privately personalized reads, no accounts or sign-ups required. It has been the industry's standard.</p>
+              <div class="mx-2">
+                <span class="badge bg-secondary p-2 mr-1">HTML</span>
+                <span class="badge bg-secondary p-2 mr-1">Bootstrap</span>
+                <span class="badge bg-secondary p-2 mr-1">Ruby</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="container-fluid bg-dark pt-5">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4">
+          <h2 class="text-warning display-1 mt-5 mb-3">About us</h2>
+          <h5 class="text-white">Hello we are software developers! We can help you build a product, feature or website. Look through some of our work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact us.</h5>
+          <button type="button" class="btn btn-warning text-white mt-4">Get My Resume</button>
+        </div>
+        <div class="col d-flex justify-content-end mb-5">
+          <img src="./images/illustration-about me.png" alt="Background image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <hr class="bg-light m-5">
+        </div>
+      </div>
+      <div class="container">
+        <div class="row text-white">
+          <div class="col-lg d-flex flex-column align-items-center">
+            <div class="d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill text-warning me-2" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"></path>
+              </svg>
+              <h2>Language</h2>
+            </div>
+            <ul class="list-unstyled">
+              <li class="m-1">JavaScript</li>
+              <li class="m-1">Ruby</li>
+              <li class="m-1">HTML</li>
+              <li class="m-1">CSS</li>
+            </ul>
+          </div>
+          <div class="col-lg d-flex flex-column align-items-center">
+            <div class="d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-square-fill text-warning me-2" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z"></path>
+              </svg>
+              <h2>Frameworks</h2>
+            </div>
+            <ul class="list-unstyled">
+              <li class="m-1">Bootstrap</li>
+              <li class="m-1">Ruby on rails</li>
+              <li class="m-1">RSPec</li>
+              <li class="m-1">Capybara</li>
+              <li class="m-1">Selenium</li>
+            </ul>
+          </div>
+          <div class="col-lg d-flex flex-column align-items-center">
+            <div class="d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill text-warning me-2" viewBox="0 0 16 16">
+                <circle cx="8" cy="8" r="8"></circle>
+              </svg>
+              <h2>Skills</h2>
+            </div>
+            <ul class="list-unstyled">
+              <li class="m-1">Codekit</li>
+              <li class="m-1">GitHub</li>
+              <li class="m-1">Codepen</li>
+              <li class="m-1">Gitlab</li>
+              <li class="m-1">Terminal</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg p-5 mt-4">
+            <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+          </div>
+          <div class="col-lg-8 align-items-center mt-5">
+            <form action="">
+              <div class="m-2 p-2">
+                <label for="fname"><input type="text" class="form-control border-top-0 border-end-0 border-start-0" name="fname" size="39" placeholder="First Name"></label>
+                <label for="lname"><input type="text" class="form-control border-top-0 border-end-0 border-start-0" name="lname" size="39" placeholder="Last Name"></label>
+              </div>
+              <div class="m-2 p-2">
+                <label for="email"><input type="email" class="form-control border-top-0 border-end-0 border-start-0" size="90" name="email" placeholder="Email address"></label>
+              </div>
+              <div class="m-2 p-2">
+                <label for="description">
+                  <textarea name="description" class="form-control" id="description" cols="92" rows="5" placeholder="Enter your description here"></textarea>
+                </label>
+              </div>
+              <button class="btn btn-warning text-white ms-3 mb-5">Get in touch</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+        <hr class="mt-5 mb-2">
+        <footer class="container d-flex align-items-center justify-content-center">
+        <ul class="list-unstyled d-flex">
+          <li class="m-2">
+            <a href="#">
+              <i class="fa fa-github text-dark" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="#">
+              <i class="fa fa-linkedin text-dark" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="#">
+              <i class="fa fa-angellist text-dark" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="#">
+              <i class="fa fa-twitter text-dark" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="m-2">
+            <a href="#">
+              <i class="fa fa-medium text-dark" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </section>
+</body>
